@@ -10,7 +10,7 @@ Wine만을 사용하여 카카오톡을 설치한 경우, 카카오톡 로그인
 
 카카오톡 설치 완료 이후, 한글을 입력하면 중첩되어 입력되는 문제가 있었다. 이는 외부 자료를 참고하여 레지스트리 설정을 변경함으로써 해결할 수 있었다. 우선 Lutris를 실행한 후, 아래의 스크린샷과 같이 *Play* 버튼 옆의 메뉴 버튼을 클릭하여 *Wine registry*를 선택하거나, *Open Wine console*을 선택한 이후 `regedit`를 입력하여 레지스트기 편집기를 실행한다.
 
-![00-lutris.png](00-lutris.png)
+![00-lutris.png](./rsc-install-kakaotalk/00-lutris.png)
 
 ```
 $ regedit
@@ -18,7 +18,7 @@ $ regedit
 
 그 다음, `HKEY_CURRENT_USER/Software/Wine`에 하위 키 `X11 Driver`를 생성한다. 그리고 `HKEY_CURRENT_USER/Software/Wine/X11 Driver`에 문자열 값 `inputStyle`을 생성하고 그 값은 `root`로 설정해준다.
 
-![01-regedit](01-regedit.png)
+![01-regedit](./rsc-install-kakaotalk/01-regedit.png)
 
 ## References
 
