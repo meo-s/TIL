@@ -122,5 +122,5 @@ fi
 
 ## References
 
-["What is the difference between the Bash operators \[\[ vs \[ vs \( vs vs \(\(?", StackExchange](https://www.naver.com)
+["What is the difference between the Bash operators \[\[ vs \[ vs \( vs vs \(\(?", StackExchange](https://www.naver.com)  
 ["리눅스 쉘 스크립트 if 조건 \[, \[\[, \(\(, \( 에 대한 차이 분석", 꾸준함의 미학, Tistory](https://paradise7.tistory.com/42)
